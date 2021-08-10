@@ -1,0 +1,112 @@
+/*
+ * Legal Disclaimer
+ *
+ * These web fonts are licensed exclusively for use on the following:
+ * spotify.com
+ *
+ * It is strictly forbidden to download or use these fonts on any other website domain or media.
+ *
+ * While the @font-face statements below may be modified by the client, this
+ * disclaimer may not be removed.
+ *
+ * Lineto.com, 2018
+ */
+
+
+/*
+ *
+ * INSTRUCTIONS
+ *
+ * Copy the Legal Disclaimer and the @font-faces statements to your regular CSS file.
+ * The fonts folder(s) should be placed relative to the regular CSS file.
+ *
+ */
+
+ @font-face {
+	font-family: "SpotifyBook";
+	src: url("../../assets/fonts/CircularSpotifyTxT-Book.eot");
+	src: url("../../assets/fonts/CircularSpotifyTxT-Book.svg") format("svg"),
+		 url("../../assets/fonts/CircularSpotifyTxT-Book.ttf") format("truetype"),
+		 url("../../assets/fonts/CircularSpotifyTxT-Book.woff") format("woff"),
+		 url("../../assets/fonts/CircularSpotifyTxT-Book.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "SpotifyBookItalic";
+	src: url("../../assets/fonts/CircularSpotifyTxT-BookItalic.eot");
+	src: url("../../assets/fonts/CircularSpotifyTxT-BookItalic.svg") format("svg"),
+		 url("../../assets/fonts/CircularSpotifyTxT-BookItalic.ttf") format("truetype"),
+		 url("../../assets/fonts/CircularSpotifyTxT-BookItalic.woff") format("woff"),
+		 url("../../assets/fonts/CircularSpotifyTxT-BookItalic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "SpotifyLight";
+	src: url("../../assets/fonts/CircularSpotifyTxT-Light.eot");
+	src: url("../../assets/fonts/CircularSpotifyTxT-Light.svg") format("svg"),
+		 url("../../assets/fonts/CircularSpotifyTxT-Light.ttf") format("truetype"),
+		 url("../../assets/fonts/CircularSpotifyTxT-Light.woff") format("woff"),
+		 url("../../assets/fonts/CircularSpotifyTxT-Light.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "SpotifyLightItalic";
+	src: url("../../assets/fonts/CircularSpotifyTxT-LightItalic.eot");
+	src: url("../../assets/fonts/CircularSpotifyTxT-LightItalic.svg") format("svg"),
+		 url("../../assets/fonts/CircularSpotifyTxT-LightItalic.ttf") format("truetype"),
+		 url("../../assets/fonts/CircularSpotifyTxT-LightItalic.woff") format("woff"),
+		 url("../../assets/fonts/CircularSpotifyTxT-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "SpotifyMedium";
+	src: url("../../assets/fonts/CircularSpotifyTxT-Medium.eot");
+	src: url("../../assets/fonts/CircularSpotifyTxT-Medium.svg") format("svg"),
+		 url("../../assets/fonts/CircularSpotifyTxT-Medium.ttf") format("truetype"),
+		 url("../../assets/fonts/CircularSpotifyTxT-Medium.woff") format("woff"),
+		 url("../../assets/fonts/CircularSpotifyTxT-Medium.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "SpotifyMediumItalic";
+	src: url("../../assets/fonts/CircularSpotifyTxT-MediumItalic.eot");
+	src: url("../../assets/fonts/CircularSpotifyTxT-MediumItalic.svg") format("svg"),
+		 url("../../assets/fonts/CircularSpotifyTxT-MediumItalic.ttf") format("truetype"),
+		 url("../../assets/fonts/CircularSpotifyTxT-MediumItalic.woff") format("woff"),
+		 url("../../assets/fonts/CircularSpotifyTxT-MediumItalic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "SpotifyBlack";
+	src: url("../../assets/fonts/CircularSpotifyTxT-Black.eot");
+	src: url("../../assets/fonts/CircularSpotifyTxT-Black.ttf") format("truetype"),
+		 url("../../assets/fonts/CircularSpotifyTxT-Black.woff") format("woff"),
+		 url("../../assets/fonts/CircularSpotifyTxT-Black.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "SpotifyBlackItalic";
+	src: url("../../assets/fonts/CircularSpotifyTxT-BlackItalic.eot");
+	src: url("../../assets/fonts/CircularSpotifyTxT-BlackItalic.svg") format("svg"),
+		 url("../../assets/fonts/CircularSpotifyTxT-BlackItalic.ttf") format("truetype"),
+		 url("../../assets/fonts/CircularSpotifyTxT-BlackItalic.woff") format("woff"),
+		 url("../../assets/fonts/CircularSpotifyTxT-BlackItalic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "SpotifyBold";
+	src: url("../../assets/fonts/CircularSpotifyTxT-Bold.eot");
+	src: url("../../assets/fonts/CircularSpotifyTxT-Bold.svg") format("svg"),
+		 url("../../assets/fonts/CircularSpotifyTxT-Bold.ttf") format("truetype"),
+		 url("../../assets/fonts/CircularSpotifyTxT-Bold.woff") format("woff"),
+		 url("../../assets/fonts/CircularSpotifyTxT-Bold.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "SpotifyBoldItalic";
+	src: url("../../assets/fonts/CircularSpotifyTxT-BoldItalic.eot");
+	src: url("../../assets/fonts/CircularSpotifyTxT-BoldItalic.svg") format("svg"),
+		 url("../../assets/fonts/CircularSpotifyTxT-BoldItalic.ttf") format("truetype"),
+		 url("../../assets/fonts/CircularSpotifyTxT-BoldItalic.woff") format("woff"),
+		 url("../../assets/fonts/CircularSpotifyTxT-BoldItalic.woff2") format("woff2");
+}
