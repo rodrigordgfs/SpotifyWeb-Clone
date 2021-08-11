@@ -6,6 +6,7 @@ $onyx: #121212;
 $dark-jungle: #181818;
 $baltic-sea: #282828;
 $black: #000000;
+$dune: #333333;
 $liver: #4D4D4D;
 $nobel: #B3B3B3;
 $white: #FFFFFF;
@@ -54,10 +55,10 @@ body {
             align-items: center;
             background: $baltic-sea;
             border-radius: 4px;
-            height: 40px;
-            padding: 0 16px;
+            padding: 10px 16px;
             margin: 0 8px;
             p {
+                font-family: 'SpotifyBlack', sans-serif;
                 color: $white;
                 margin-top: 5px;
             }
@@ -67,10 +68,10 @@ body {
             flex-direction: row;
             gap: 20px;
             align-items: center;
-            height: 40px;
-            padding: 0 16px;
+            padding: 10px 16px;
             margin: 0 8px;
             p {
+                font-family: 'SpotifyBlack', sans-serif;
                 color: $nobel;
                 margin-top: 5px;
                 transition: 0.2s ease-in-out;
@@ -82,12 +83,13 @@ body {
         #divider_menu {
             height: 1px; 
             background-color: $baltic-sea; 
-            margin: 24px;
+            margin: 16px 16px 0 16px;
         }
         #playlists {
             display: flex;
             flex-direction: column;
             margin-top: 36px;
+            padding: 0 24px;
             li {
                 height: 32px;
                 a {
@@ -99,6 +101,81 @@ body {
                     }
                 }
             }
+        }
+    }
+    #main__content {
+        display: flex;
+        flex: 1; 
+        flex-direction: column;
+        margin-left: 260px;
+        padding: 20px 30px;
+        #content_header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            #arrows {
+                display: flex;
+                flex-direction: row;
+                align-items: center; 
+                gap: 15px;
+                #previous, #next {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;  
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                    background-color: rgba(0, 0, 0, 0.2); 
+                    img {
+                        width: 22px;
+                        height: 22px;
+                    }
+                }
+                #next {
+                    background-color: rgba(0, 0, 0, 0.5); 
+                }
+            }
+            #profile {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                background-color: rgba(0, 0, 0, 0.5);
+                border-radius: 20px;
+                padding: 5px;
+                gap: 10px;
+                #profile_icon {
+                    width: 28px;
+                    height: 28px; 
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: $dune;
+                    border-radius: 50%;
+                }
+                p {
+                    font-family: 'SpotifyBlack', sans-serif;
+                    color: $white;
+                    margin-top: 4px;
+                }
+                #down_icon {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;  
+                    padding-right: 5px;
+                }
+            }
+        }
+    }
+    #greeting {
+        margin-top: 45px;
+        h1 {
+            font-size: 32px;
+            color: $white;
+            font-family: 'SpotifyBold', sans-serif;  
         }
     }
 }
