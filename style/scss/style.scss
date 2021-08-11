@@ -12,7 +12,8 @@ $white: #FFFFFF;
 
 body {
     background-color: $onyx;
-    font-family: 'SpotifyBlack', sans-serif;
+    font-family: 'SpotifyLight', sans-serif;
+    // user-select: none;
 }
 
 #main__container {
@@ -32,7 +33,8 @@ body {
         background-color: $liver;
       }
     #main__side { 
-        display: flex;
+        position: fixed;
+        display: flex; 
         flex-direction: column;
         background: $black;
         width: 260px;
@@ -40,7 +42,6 @@ body {
         gap: 5px;
         overflow:hidden;  
         overflow-y:scroll;
-        
         #spotify_logo { 
             width: 150px; 
             height: 45px;  
